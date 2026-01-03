@@ -11,4 +11,4 @@ from pymongo import MongoClient
 
 # Base de datos Remota
 db_client = MongoClient(
-    "mongodb+srv://giovanni_sanh:v5NbF8mX0pMOHuJX@cluster0.pixsjtq.mongodb.net/?appName=Cluster0").test
+    "").test

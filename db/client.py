@@ -3,7 +3,7 @@
 # MÃ³dulo conexiÃ³n MongoDB: pip install pymongo
 # EjecuciÃ³n: sudo mongod --dbpath "/path/a/la/base/de/datos/"
 # ConexiÃ³n: mongodb://localhost
-
+import os
 from pymongo import MongoClient
 
 # Base de datos local

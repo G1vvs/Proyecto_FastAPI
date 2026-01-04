@@ -10,5 +10,5 @@ from pymongo import MongoClient
 #db_client = MongoClient().local
 
 # Base de datos Remota
-db_client = MongoClient(
-    "").test
+mongodb_uri = os.getenv("MONGODB_URI")
+db_client = MongoClient(mongodb_uri).test
